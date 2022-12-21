@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+}
+
+header {
+    width: 40%;
+    height: 100vh;
+    background: url(images/music.jpg) #481369;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.title h1 {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.title {
+    margin-top: 14rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.title img {
+    width: 70px;
+}
+
+.credit {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin-bottom: 13px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.credit a {
+    color: #ffffff;
+}
+
