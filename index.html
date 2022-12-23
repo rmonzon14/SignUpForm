@@ -20,38 +20,53 @@
     </header>
 
     <main id="main-content">
-        <section class="description">
-            <h2>What's HyperMusic?</h2>
+        <section class="description-section">
+            <h2>What's HypeMusic?</h2>
             <p>Here at HypeMusic, you can listen to your favorite music artist(s) for free! All you have to do is create an account by doing the sign-up form below.</p>
         </section>
 
-        <section>
-            <h1>Create Account</h1>
-            
+        <section class="form-section">
             <form action="index.html" method="POST">
+                <h3>Let's start!</h3>
+
                 <fieldset class="name">
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name" placeholder="first name">
-                
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="last-name" placeholder="last name">           
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="first name">
+                    </div>
+                 
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="last name">  
+                    </div>         
                 </fieldset>
 
                 <fieldset class="contact">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" placeholder="phone">
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="phone">
+                    </div>
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="email">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email">
+                    </div>
                 </fieldset>
 
                 <fieldset class="password">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="password">
-
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm-password">
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="password">    
+                    </div>
+                   
+                    <div>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm-password">
+                    </div> 
                 </fieldset>
+
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="index.html">Log in</a></p>
             </form>
         </section>
     </main>
