@@ -46,7 +46,7 @@ header {
     position: absolute;
     bottom: 0;
     color: white;
-    margin-bottom: 13px;
+    margin-bottom: 5px;
     font-size: 1.3rem;
     text-align: center;
     opacity: .8;
@@ -56,4 +56,61 @@ header {
     color: #ffffff;
     text-decoration: underline;
 }
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-section {
+    background-image: linear-gradient(90deg, #1f4347, #0a2629);
+    height: 40vh;
+    width: 100%;
+    padding: 50px 25px;
+    color: white;
+}
+
+.description-section h2{
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.description-section p {
+    line-height: 1.5;
+    width: 70%;
+    font-size: 1.1rem;
+}
+
+form {
+    width: 80%;
+    height: 50vh;
+    margin: 30px auto 0;
+    padding: 30px;
+    background-color: #4c6362;
+    border-radius: 13px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.form-section {
+    background-color: #1b373a;
+    height: 100%;
+}
+
+form h3 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+    gap: 50px;
+}
+
+input, label {
+    display: block;
+}
+
+
 
